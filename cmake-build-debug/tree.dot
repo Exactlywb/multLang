@@ -1,0 +1,272 @@
+digraph List {
+node [shape="circle"]
+"box0" [shape = "record", label = "{loader}"]
+"box1" [shape = "record", label = "{func}"]
+"box2" [shape = "record", label = "{союз мультфильм}"]
+"box3" [shape = "record", label = "{lcB}"]
+"box2" -> "box3"
+"box4" [shape = "record", label = "{concat}"]
+"box5" [shape = "record", label = "{statement}"]
+"box6" [shape = "record", label = "{assignment}"]
+"box7" [shape = "record", label = "{Младшенький }"]
+"box6" -> "box7"
+"box8" [shape = "record", label = "{0}"]
+"box6" -> "box8"
+"box5" -> "box6"
+"box4" -> "box5"
+"box9" [shape = "record", label = "{concat}"]
+"box10" [shape = "record", label = "{statement}"]
+"box11" [shape = "record", label = "{assignment}"]
+"box12" [shape = "record", label = "{Средненький }"]
+"box11" -> "box12"
+"box13" [shape = "record", label = "{0}"]
+"box11" -> "box13"
+"box10" -> "box11"
+"box9" -> "box10"
+"box14" [shape = "record", label = "{concat}"]
+"box15" [shape = "record", label = "{statement}"]
+"box16" [shape = "record", label = "{assignment}"]
+"box17" [shape = "record", label = "{Старшенький }"]
+"box16" -> "box17"
+"box18" [shape = "record", label = "{0}"]
+"box16" -> "box18"
+"box15" -> "box16"
+"box14" -> "box15"
+"box19" [shape = "record", label = "{concat}"]
+"box20" [shape = "record", label = "{statement}"]
+"box21" [shape = "record", label = "{scan_}"]
+"box22" [shape = "record", label = "{Младшенький }"]
+"box21" -> "box22"
+"box20" -> "box21"
+"box19" -> "box20"
+"box23" [shape = "record", label = "{concat}"]
+"box24" [shape = "record", label = "{statement}"]
+"box25" [shape = "record", label = "{scan_}"]
+"box26" [shape = "record", label = "{Средненький }"]
+"box25" -> "box26"
+"box24" -> "box25"
+"box23" -> "box24"
+"box27" [shape = "record", label = "{concat}"]
+"box28" [shape = "record", label = "{statement}"]
+"box29" [shape = "record", label = "{scan_}"]
+"box30" [shape = "record", label = "{Старшенький }"]
+"box29" -> "box30"
+"box28" -> "box29"
+"box27" -> "box28"
+"box31" [shape = "record", label = "{concat}"]
+"box32" [shape = "record", label = "{statement}"]
+"box33" [shape = "record", label = "{assignment}"]
+"box34" [shape = "record", label = "{Батюшка }"]
+"box33" -> "box34"
+"box35" [shape = "record", label = "{sub_}"]
+"box36" [shape = "record", label = "{mul_}"]
+"box37" [shape = "record", label = "{Средненький }"]
+"box36" -> "box37"
+"box38" [shape = "record", label = "{Средненький }"]
+"box36" -> "box38"
+"box35" -> "box36"
+"box39" [shape = "record", label = "{mul_}"]
+"box40" [shape = "record", label = "{mul_}"]
+"box41" [shape = "record", label = "{4}"]
+"box40" -> "box41"
+"box42" [shape = "record", label = "{Младшенький }"]
+"box40" -> "box42"
+"box39" -> "box40"
+"box43" [shape = "record", label = "{Старшенький }"]
+"box39" -> "box43"
+"box35" -> "box39"
+"box33" -> "box35"
+"box32" -> "box33"
+"box31" -> "box32"
+"box44" [shape = "record", label = "{concat}"]
+"box45" [shape = "record", label = "{statement}"]
+"box46" [shape = "record", label = "{if_}"]
+"box47" [shape = "record", label = "{less_}"]
+"box48" [shape = "record", label = "{Батюшка }"]
+"box47" -> "box48"
+"box49" [shape = "record", label = "{0}"]
+"box47" -> "box49"
+"box46" -> "box47"
+"box50" [shape = "record", label = "{concat}"]
+"box51" [shape = "record", label = "{statement}"]
+"box52" [shape = "record", label = "{print_}"]
+"box53" [shape = "record", label = "{0}"]
+"box52" -> "box53"
+"box51" -> "box52"
+"box50" -> "box51"
+"box46" -> "box50"
+"box45" -> "box46"
+"box44" -> "box45"
+"box54" [shape = "record", label = "{concat}"]
+"box55" [shape = "record", label = "{statement}"]
+"box56" [shape = "record", label = "{if_}"]
+"box57" [shape = "record", label = "{eq}"]
+"box58" [shape = "record", label = "{Батюшка }"]
+"box57" -> "box58"
+"box59" [shape = "record", label = "{0}"]
+"box57" -> "box59"
+"box56" -> "box57"
+"box60" [shape = "record", label = "{concat}"]
+"box61" [shape = "record", label = "{statement}"]
+"box62" [shape = "record", label = "{assignment}"]
+"box63" [shape = "record", label = "{Шишка Батюшки }"]
+"box62" -> "box63"
+"box64" [shape = "record", label = "{div_}"]
+"box65" [shape = "record", label = "{mul_}"]
+"box66" [shape = "record", label = "{sub_}"]
+"box67" [shape = "record", label = "{0}"]
+"box66" -> "box67"
+"box68" [shape = "record", label = "{1}"]
+"box66" -> "box68"
+"box65" -> "box66"
+"box69" [shape = "record", label = "{Средненький }"]
+"box65" -> "box69"
+"box64" -> "box65"
+"box70" [shape = "record", label = "{mul_}"]
+"box71" [shape = "record", label = "{2}"]
+"box70" -> "box71"
+"box72" [shape = "record", label = "{Младшенький }"]
+"box70" -> "box72"
+"box64" -> "box70"
+"box62" -> "box64"
+"box61" -> "box62"
+"box60" -> "box61"
+"box73" [shape = "record", label = "{concat}"]
+"box74" [shape = "record", label = "{statement}"]
+"box75" [shape = "record", label = "{print_}"]
+"box76" [shape = "record", label = "{1}"]
+"box75" -> "box76"
+"box74" -> "box75"
+"box73" -> "box74"
+"box77" [shape = "record", label = "{concat}"]
+"box78" [shape = "record", label = "{statement}"]
+"box79" [shape = "record", label = "{print_}"]
+"box80" [shape = "record", label = "{Шишка Батюшки }"]
+"box79" -> "box80"
+"box78" -> "box79"
+"box77" -> "box78"
+"box73" -> "box77"
+"box60" -> "box73"
+"box56" -> "box60"
+"box55" -> "box56"
+"box54" -> "box55"
+"box81" [shape = "record", label = "{concat}"]
+"box82" [shape = "record", label = "{statement}"]
+"box83" [shape = "record", label = "{if_}"]
+"box84" [shape = "record", label = "{more_}"]
+"box85" [shape = "record", label = "{Батюшка }"]
+"box84" -> "box85"
+"box86" [shape = "record", label = "{0}"]
+"box84" -> "box86"
+"box83" -> "box84"
+"box87" [shape = "record", label = "{concat}"]
+"box88" [shape = "record", label = "{statement}"]
+"box89" [shape = "record", label = "{assignment}"]
+"box90" [shape = "record", label = "{Шишка Батюшки }"]
+"box89" -> "box90"
+"box91" [shape = "record", label = "{sqrt_}"]
+"box92" [shape = "record", label = "{Батюшка }"]
+"box91" -> "box92"
+"box89" -> "box91"
+"box88" -> "box89"
+"box87" -> "box88"
+"box93" [shape = "record", label = "{concat}"]
+"box94" [shape = "record", label = "{statement}"]
+"box95" [shape = "record", label = "{assignment}"]
+"box96" [shape = "record", label = "{Князь Османский }"]
+"box95" -> "box96"
+"box97" [shape = "record", label = "{div_}"]
+"box98" [shape = "record", label = "{sub_}"]
+"box99" [shape = "record", label = "{mul_}"]
+"box100" [shape = "record", label = "{sub_}"]
+"box101" [shape = "record", label = "{0}"]
+"box100" -> "box101"
+"box102" [shape = "record", label = "{1}"]
+"box100" -> "box102"
+"box99" -> "box100"
+"box103" [shape = "record", label = "{Средненький }"]
+"box99" -> "box103"
+"box98" -> "box99"
+"box104" [shape = "record", label = "{Шишка Батюшки }"]
+"box98" -> "box104"
+"box97" -> "box98"
+"box105" [shape = "record", label = "{mul_}"]
+"box106" [shape = "record", label = "{2}"]
+"box105" -> "box106"
+"box107" [shape = "record", label = "{Старшенький }"]
+"box105" -> "box107"
+"box97" -> "box105"
+"box95" -> "box97"
+"box94" -> "box95"
+"box93" -> "box94"
+"box108" [shape = "record", label = "{concat}"]
+"box109" [shape = "record", label = "{statement}"]
+"box110" [shape = "record", label = "{assignment}"]
+"box111" [shape = "record", label = "{Князь Российский }"]
+"box110" -> "box111"
+"box112" [shape = "record", label = "{div_}"]
+"box113" [shape = "record", label = "{add_}"]
+"box114" [shape = "record", label = "{mul_}"]
+"box115" [shape = "record", label = "{sub_}"]
+"box116" [shape = "record", label = "{0}"]
+"box115" -> "box116"
+"box117" [shape = "record", label = "{1}"]
+"box115" -> "box117"
+"box114" -> "box115"
+"box118" [shape = "record", label = "{Средненький }"]
+"box114" -> "box118"
+"box113" -> "box114"
+"box119" [shape = "record", label = "{Шишка Батюшки }"]
+"box113" -> "box119"
+"box112" -> "box113"
+"box120" [shape = "record", label = "{mul_}"]
+"box121" [shape = "record", label = "{2}"]
+"box120" -> "box121"
+"box122" [shape = "record", label = "{Старшенький }"]
+"box120" -> "box122"
+"box112" -> "box120"
+"box110" -> "box112"
+"box109" -> "box110"
+"box108" -> "box109"
+"box123" [shape = "record", label = "{concat}"]
+"box124" [shape = "record", label = "{statement}"]
+"box125" [shape = "record", label = "{print_}"]
+"box126" [shape = "record", label = "{2}"]
+"box125" -> "box126"
+"box124" -> "box125"
+"box123" -> "box124"
+"box127" [shape = "record", label = "{concat}"]
+"box128" [shape = "record", label = "{statement}"]
+"box129" [shape = "record", label = "{print_}"]
+"box130" [shape = "record", label = "{Князь Османский }"]
+"box129" -> "box130"
+"box128" -> "box129"
+"box127" -> "box128"
+"box131" [shape = "record", label = "{concat}"]
+"box132" [shape = "record", label = "{statement}"]
+"box133" [shape = "record", label = "{print_}"]
+"box134" [shape = "record", label = "{Князь Российский }"]
+"box133" -> "box134"
+"box132" -> "box133"
+"box131" -> "box132"
+"box127" -> "box131"
+"box123" -> "box127"
+"box108" -> "box123"
+"box93" -> "box108"
+"box87" -> "box93"
+"box83" -> "box87"
+"box82" -> "box83"
+"box81" -> "box82"
+"box54" -> "box81"
+"box44" -> "box54"
+"box31" -> "box44"
+"box27" -> "box31"
+"box23" -> "box27"
+"box19" -> "box23"
+"box14" -> "box19"
+"box9" -> "box14"
+"box4" -> "box9"
+"box2" -> "box4"
+"box1" -> "box2"
+"box0" -> "box1"
+}
