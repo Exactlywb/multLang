@@ -9,14 +9,13 @@
 Tree* langTree = nullptr;
 
 Node* GetG (char* storage, Tree* mainTree) {
-    printf ("Here work1!\n");
+
     assert (storage);
 
     langTree = mainTree; //передали указатель для увеличения размера
     expression = storage;
 
     ReadTokens  ();
-    PrintTokens ();
 
     maxTokenNum = currentTokenNum;
     currentTokenNum = 0;
@@ -26,7 +25,6 @@ Node* GetG (char* storage, Tree* mainTree) {
 
     GetEndOfProgram ();
 
-    printf ("Here work1!\n");
     return root;
 
 }
@@ -72,7 +70,7 @@ Node* GetFunc () {
 }
 
 Node* GetDec () {
-    printf ("Here work3!\n");
+
     if ( RequireSysOpers (func) ) {
 
         return MakeSysOperNode (func);
@@ -80,7 +78,7 @@ Node* GetDec () {
     }
 
     currentTokenNum--;
-    printf ("Here work3!\n");
+
     return nullptr;
 
 }
@@ -175,6 +173,7 @@ Node* GetStatement () {
     return statementNode;
 
 }
+
 Node* GetIden () {
 
     Node* idenNode = tokens [currentTokenNum++];
@@ -704,8 +703,6 @@ void  ReadTokens () {
 
     }
 
-    PrintTokens ();
-
 }
 
 double ReadNumFromExpression () {
@@ -794,7 +791,6 @@ bool ReadStatementToken () {
 
     if ( *expression == '(' ) {
 
-        printf ("here\n");
         MakeFuncToken (statementName);
         return true;
 
@@ -937,8 +933,6 @@ void PrintTreeIntoFile (Node* currentNode, FILE* output, const size_t deep) {
     fprintf (output, "{\n");
 
     for (size_t i = 0; i < deep; i++) fprintf (output, "\t");
-
-    printf ("%d\n", currentNode->type);
 
     if (currentNode->type == CONST) {
 
